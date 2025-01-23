@@ -82,6 +82,7 @@ To develop a full-fledged banking application that handles customer accounts, tr
    - Spring Boot Microservices
    - Business Logic Implementation
    - Layered Architecture (Controller, Service, Repository)
+   - AOP for logging and audit
 
 3. **Data Layer:**
 
@@ -131,5 +132,12 @@ To develop a full-fledged banking application that handles customer accounts, tr
    - Input validation using annotations
    - Implement `@ControllerAdvice` for centralized exception handling
 
+5. **AOP for Logging and Auditing:**
 
+   - Implement cross-cutting concerns like logging and auditing using Spring AOP
+   - Use `@Before`, `@After`, and `@Around` advice annotations for tracking method executions
+
+#### Conclusion
+
+The banking application case study provides an end-to-end view of developing a robust financial application using Core Java and Spring Boot. Participants will gain hands-on experience with developing RESTful APIs, managing data persistence, implementing security measures, and deploying applications to production environments.
 
